@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.cars.CarsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-30T09:28:28" hostname="ORDI-ADRIAN" time="0.825">
+<testsuite name="com.example.cars.CarsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-17T10:47:47" hostname="ORDI-ADRIAN" time="0.737">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.cars.CarsApplicationTests" time="0.825"/>
-  <system-out><![CDATA[11:28:26.316 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cars.CarsApplicationTests]: CarsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-11:28:26.491 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cars.CarsApplication for test class com.example.cars.CarsApplicationTests
+  <testcase name="contextLoads()" classname="com.example.cars.CarsApplicationTests" time="0.737"/>
+  <system-out><![CDATA[12:47:45.392 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cars.CarsApplicationTests]: CarsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:47:45.532 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cars.CarsApplication for test class com.example.cars.CarsApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-03-30T11:28:26.997+02:00  INFO 16316 --- [cars] [    Test worker] com.example.cars.CarsApplicationTests    : Starting CarsApplicationTests using Java 23.0.2 with PID 16316 (started by adria in C:\Users\adria\Desktop\ProgDistrib\TP_rest_web\cars)
-2025-03-30T11:28:26.999+02:00  INFO 16316 --- [cars] [    Test worker] com.example.cars.CarsApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2025-03-30T11:28:28.360+02:00  INFO 16316 --- [cars] [    Test worker] com.example.cars.CarsApplicationTests    : Started CarsApplicationTests in 1.675 seconds (process running for 3.057)
+2025-05-17T12:47:46.014+02:00  INFO 9284 --- [cars] [    Test worker] com.example.cars.CarsApplicationTests    : Starting CarsApplicationTests using Java 23.0.2 with PID 9284 (started by adria in C:\Users\adria\Desktop\ProgDistrib\rent\cars)
+2025-05-17T12:47:46.015+02:00  INFO 9284 --- [cars] [    Test worker] com.example.cars.CarsApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-05-17T12:47:47.348+02:00  INFO 9284 --- [cars] [    Test worker] com.example.cars.CarsApplicationTests    : Started CarsApplicationTests in 1.62 seconds (process running for 3.03)
 ]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (C:\Users\adria\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)

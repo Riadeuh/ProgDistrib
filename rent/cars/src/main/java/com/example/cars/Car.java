@@ -13,7 +13,7 @@ public class Car {
         this.isrented = false;
     }
 
-    public Car(String plateNumber, String brand, float price, boolean isrented){
+    public Car(String plateNumber, String brand, double price, boolean isrented){
         this.plateNumber = plateNumber;
         this.brand = brand;
         this.price = price;
@@ -50,5 +50,15 @@ public class Car {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "plateNumber='" + plateNumber + '\'' +
+                ", brand='" + brand + '\'' +
+                ", price=" + price +
+                ", isrented=" + isrented +
+                '}';
     }
 }
